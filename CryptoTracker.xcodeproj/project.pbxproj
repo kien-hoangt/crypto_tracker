@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		134762A1282122E7002B9082 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762A0282122E7002B9082 /* CryptoTrackerApp.swift */; };
-		134762A3282122E7002B9082 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762A2282122E7002B9082 /* ContentView.swift */; };
 		134762A5282122E8002B9082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134762A4282122E8002B9082 /* Assets.xcassets */; };
 		134762A8282122E8002B9082 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134762A7282122E8002B9082 /* Preview Assets.xcassets */; };
+		134762B528212365002B9082 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762AF28212365002B9082 /* Date.swift */; };
+		134762B628212365002B9082 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762B028212365002B9082 /* PreviewProvider.swift */; };
+		134762B728212365002B9082 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762B128212365002B9082 /* String.swift */; };
+		134762B828212365002B9082 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762B228212365002B9082 /* Double.swift */; };
+		134762B928212365002B9082 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762B328212365002B9082 /* UIApplication.swift */; };
+		134762BA28212365002B9082 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762B428212365002B9082 /* Color.swift */; };
+		134762C12821263D002B9082 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762C02821263D002B9082 /* HomeView.swift */; };
+		134762C428212866002B9082 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762C328212866002B9082 /* CircleButtonView.swift */; };
+		134762C628212C0D002B9082 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762C528212C0D002B9082 /* CircleButtonAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1347629D282122E7002B9082 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		134762A0282122E7002B9082 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
-		134762A2282122E7002B9082 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		134762A4282122E8002B9082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		134762A7282122E8002B9082 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		134762AF28212365002B9082 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		134762B028212365002B9082 /* PreviewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		134762B128212365002B9082 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		134762B228212365002B9082 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		134762B328212365002B9082 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		134762B428212365002B9082 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		134762C02821263D002B9082 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		134762C328212866002B9082 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		134762C528212C0D002B9082 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				134762A0282122E7002B9082 /* CryptoTrackerApp.swift */,
-				134762A2282122E7002B9082 /* ContentView.swift */,
+				134762AE28212365002B9082 /* Extensions */,
+				134762BB28212604002B9082 /* Core */,
 				134762A4282122E8002B9082 /* Assets.xcassets */,
 				134762A6282122E8002B9082 /* Preview Content */,
 			);
@@ -65,6 +82,69 @@
 				134762A7282122E8002B9082 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		134762AE28212365002B9082 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				134762AF28212365002B9082 /* Date.swift */,
+				134762B028212365002B9082 /* PreviewProvider.swift */,
+				134762B128212365002B9082 /* String.swift */,
+				134762B228212365002B9082 /* Double.swift */,
+				134762B328212365002B9082 /* UIApplication.swift */,
+				134762B428212365002B9082 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		134762BB28212604002B9082 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				134762BC28212617002B9082 /* Components */,
+				134762BD28212623002B9082 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		134762BC28212617002B9082 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				134762C228212858002B9082 /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		134762BD28212623002B9082 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				134762BF28212630002B9082 /* ViewModels */,
+				134762BE2821262C002B9082 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		134762BE2821262C002B9082 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				134762C02821263D002B9082 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		134762BF28212630002B9082 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		134762C228212858002B9082 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				134762C328212866002B9082 /* CircleButtonView.swift */,
+				134762C528212C0D002B9082 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +217,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134762A3282122E7002B9082 /* ContentView.swift in Sources */,
+				134762C12821263D002B9082 /* HomeView.swift in Sources */,
+				134762B928212365002B9082 /* UIApplication.swift in Sources */,
+				134762B628212365002B9082 /* PreviewProvider.swift in Sources */,
+				134762B728212365002B9082 /* String.swift in Sources */,
+				134762B528212365002B9082 /* Date.swift in Sources */,
+				134762BA28212365002B9082 /* Color.swift in Sources */,
+				134762C428212866002B9082 /* CircleButtonView.swift in Sources */,
+				134762C628212C0D002B9082 /* CircleButtonAnimationView.swift in Sources */,
+				134762B828212365002B9082 /* Double.swift in Sources */,
 				134762A1282122E7002B9082 /* CryptoTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,8 +363,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,8 +394,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
