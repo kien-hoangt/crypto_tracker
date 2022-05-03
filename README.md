@@ -2,7 +2,9 @@
 
 I'm Bradley. And I'm learning MVVM + Combine + SwiftUI.
 
-This repository contain source code for the SwiftUI Crypto App. The complete tutorial is available for free on my YouTube channel @SwiftfulThinking. The project uses MVVM Architecture, CoreData and Combine. Live cryptocurrency data is downloaded from CoinGecko API..
+I'm following the tutorial on @SwiftfulThinking Youtube and storing source code in this repository.
+
+The complete tutorial is available for free on his YouTube channel @SwiftfulThinking. The project uses MVVM Architecture, CoreData and Combine. Live crypto currency data is downloaded from CoinGecko API.
 
 # Source
 
