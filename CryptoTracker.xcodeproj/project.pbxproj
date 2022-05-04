@@ -21,6 +21,7 @@
 		134762C628212C0D002B9082 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762C528212C0D002B9082 /* CircleButtonAnimationView.swift */; };
 		134762CC28213916002B9082 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762CB28213916002B9082 /* CoinModel.swift */; };
 		134762CE28216EB6002B9082 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762CD28216EB6002B9082 /* CoinRowView.swift */; };
+		134762D028227595002B9082 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762CF28227595002B9082 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		134762C528212C0D002B9082 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		134762CB28213916002B9082 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		134762CD28216EB6002B9082 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		134762CF28227595002B9082 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		134762C7282136A1002B9082 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				134762CF28227595002B9082 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				134762CC28213916002B9082 /* CoinModel.swift in Sources */,
 				134762B528212365002B9082 /* Date.swift in Sources */,
 				134762BA28212365002B9082 /* Color.swift in Sources */,
+				134762D028227595002B9082 /* HomeViewModel.swift in Sources */,
 				134762C428212866002B9082 /* CircleButtonView.swift in Sources */,
 				134762C628212C0D002B9082 /* CircleButtonAnimationView.swift in Sources */,
 				134762B828212365002B9082 /* Double.swift in Sources */,
