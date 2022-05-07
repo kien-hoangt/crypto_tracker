@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132E64BB2826D6020066DE18 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132E64BA2826D6020066DE18 /* LocalFileManager.swift */; };
 		134762A1282122E7002B9082 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762A0282122E7002B9082 /* CryptoTrackerApp.swift */; };
 		134762A5282122E8002B9082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134762A4282122E8002B9082 /* Assets.xcassets */; };
 		134762A8282122E8002B9082 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134762A7282122E8002B9082 /* Preview Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		132E64BA2826D6020066DE18 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		1347629D282122E7002B9082 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		134762A0282122E7002B9082 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		134762A4282122E8002B9082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				134762D52823D8AC002B9082 /* NetworkingManager.swift */,
+				132E64BA2826D6020066DE18 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				134762D62823D8AC002B9082 /* NetworkingManager.swift in Sources */,
 				134762B928212365002B9082 /* UIApplication.swift in Sources */,
 				134762D92825166D002B9082 /* CoinImageView.swift in Sources */,
+				132E64BB2826D6020066DE18 /* LocalFileManager.swift in Sources */,
 				134762B628212365002B9082 /* PreviewProvider.swift in Sources */,
 				134762DB28251C0F002B9082 /* CoinImageService.swift in Sources */,
 				134762B728212365002B9082 /* String.swift in Sources */,
