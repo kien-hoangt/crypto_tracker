@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		132E64BB2826D6020066DE18 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132E64BA2826D6020066DE18 /* LocalFileManager.swift */; };
+		132E64BE28275F340066DE18 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132E64BD28275F340066DE18 /* SearchBarView.swift */; };
 		134762A1282122E7002B9082 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134762A0282122E7002B9082 /* CryptoTrackerApp.swift */; };
 		134762A5282122E8002B9082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134762A4282122E8002B9082 /* Assets.xcassets */; };
 		134762A8282122E8002B9082 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134762A7282122E8002B9082 /* Preview Assets.xcassets */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		132E64BA2826D6020066DE18 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		132E64BD28275F340066DE18 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		1347629D282122E7002B9082 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		134762A0282122E7002B9082 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		134762A4282122E8002B9082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		132E64BC28275F280066DE18 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				132E64BD28275F340066DE18 /* SearchBarView.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
 		13476294282122E6002B9082 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +140,7 @@
 		134762BC28212617002B9082 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				132E64BC28275F280066DE18 /* SearchBar */,
 				134762D728251651002B9082 /* CoinImage */,
 				134762C228212858002B9082 /* CircleButton */,
 			);
@@ -276,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132E64BE28275F340066DE18 /* SearchBarView.swift in Sources */,
 				134762CE28216EB6002B9082 /* CoinRowView.swift in Sources */,
 				134762C12821263D002B9082 /* HomeView.swift in Sources */,
 				134762D32822AE76002B9082 /* CoinDataService.swift in Sources */,
