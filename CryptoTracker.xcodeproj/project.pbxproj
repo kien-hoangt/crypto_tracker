@@ -37,6 +37,8 @@
 		1355E14E2827F00F00436A9A /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355E14D2827F00F00436A9A /* PortfolioView.swift */; };
 		1355E1502827F29100436A9A /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355E14F2827F29100436A9A /* XMarkButton.swift */; };
 		138632192827F938000EECAF /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138632182827F938000EECAF /* CoinLogoView.swift */; };
+		1398C0D0282908C700E448BB /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1398C0CE282908C700E448BB /* PortfolioContainer.xcdatamodeld */; };
+		1398C0D22829096E00E448BB /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1398C0D12829096E00E448BB /* PortfolioDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,8 @@
 		1355E14D2827F00F00436A9A /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		1355E14F2827F29100436A9A /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
 		138632182827F938000EECAF /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
+		1398C0CF282908C700E448BB /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
+		1398C0D12829096E00E448BB /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,7 @@
 				134762CB28213916002B9082 /* CoinModel.swift */,
 				132E64BF2827B3C00066DE18 /* StatisticModel.swift */,
 				1355E1492827BBF000436A9A /* MarketDataModel.swift */,
+				1398C0CE282908C700E448BB /* PortfolioContainer.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				134762D22822AE76002B9082 /* CoinDataService.swift */,
 				134762DA28251C0F002B9082 /* CoinImageService.swift */,
 				1355E14B2827BE8F00436A9A /* MarketDataService.swift */,
+				1398C0D12829096E00E448BB /* PortfolioDataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 				134762D62823D8AC002B9082 /* NetworkingManager.swift in Sources */,
 				134762B928212365002B9082 /* UIApplication.swift in Sources */,
 				1355E14A2827BBF000436A9A /* MarketDataModel.swift in Sources */,
+				1398C0D22829096E00E448BB /* PortfolioDataService.swift in Sources */,
 				134762D92825166D002B9082 /* CoinImageView.swift in Sources */,
 				132E64BB2826D6020066DE18 /* LocalFileManager.swift in Sources */,
 				132E64C32827B4C10066DE18 /* StatisticView.swift in Sources */,
@@ -325,6 +332,7 @@
 				134762CC28213916002B9082 /* CoinModel.swift in Sources */,
 				134762B528212365002B9082 /* Date.swift in Sources */,
 				134762BA28212365002B9082 /* Color.swift in Sources */,
+				1398C0D0282908C700E448BB /* PortfolioContainer.xcdatamodeld in Sources */,
 				134762D028227595002B9082 /* HomeViewModel.swift in Sources */,
 				134762C428212866002B9082 /* CircleButtonView.swift in Sources */,
 				134762C628212C0D002B9082 /* CircleButtonAnimationView.swift in Sources */,
@@ -537,6 +545,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1398C0CE282908C700E448BB /* PortfolioContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1398C0CF282908C700E448BB /* PortfolioContainer.xcdatamodel */,
+			);
+			currentVersion = 1398C0CF282908C700E448BB /* PortfolioContainer.xcdatamodel */;
+			path = PortfolioContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 13476295282122E6002B9082 /* Project object */;
 }
