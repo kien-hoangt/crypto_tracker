@@ -39,6 +39,7 @@
 		138632192827F938000EECAF /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138632182827F938000EECAF /* CoinLogoView.swift */; };
 		1398C0D0282908C700E448BB /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1398C0CE282908C700E448BB /* PortfolioContainer.xcdatamodeld */; };
 		1398C0D22829096E00E448BB /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1398C0D12829096E00E448BB /* PortfolioDataService.swift */; };
+		1398C0D4282A52C500E448BB /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1398C0D3282A52C500E448BB /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		138632182827F938000EECAF /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		1398C0CF282908C700E448BB /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		1398C0D12829096E00E448BB /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		1398C0D3282A52C500E448BB /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			children = (
 				134762D52823D8AC002B9082 /* NetworkingManager.swift */,
 				132E64BA2826D6020066DE18 /* LocalFileManager.swift */,
+				1398C0D3282A52C500E448BB /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				134762C628212C0D002B9082 /* CircleButtonAnimationView.swift in Sources */,
 				134762B828212365002B9082 /* Double.swift in Sources */,
 				134762A1282122E7002B9082 /* CryptoTrackerApp.swift in Sources */,
+				1398C0D4282A52C500E448BB /* HapticManager.swift in Sources */,
 				1355E14E2827F00F00436A9A /* PortfolioView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
