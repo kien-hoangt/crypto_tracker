@@ -40,6 +40,7 @@
 		1398C0D0282908C700E448BB /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1398C0CE282908C700E448BB /* PortfolioContainer.xcdatamodeld */; };
 		1398C0D22829096E00E448BB /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1398C0D12829096E00E448BB /* PortfolioDataService.swift */; };
 		1398C0D4282A52C500E448BB /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1398C0D3282A52C500E448BB /* HapticManager.swift */; };
+		13D028F228326A9F00815E22 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D028F128326A9F00815E22 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		1398C0CF282908C700E448BB /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		1398C0D12829096E00E448BB /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		1398C0D3282A52C500E448BB /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		13D028F128326A9F00815E22 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				134762BC28212617002B9082 /* Components */,
 				134762BD28212623002B9082 /* Home */,
+				13D028EE28326A8600815E22 /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -240,6 +243,30 @@
 				138632182827F938000EECAF /* CoinLogoView.swift */,
 			);
 			path = CoinImage;
+			sourceTree = "<group>";
+		};
+		13D028EE28326A8600815E22 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				13D028F028326A9600815E22 /* ViewModels */,
+				13D028EF28326A9000815E22 /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		13D028EF28326A9000815E22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13D028F128326A9F00815E22 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13D028F028326A9600815E22 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +364,7 @@
 				134762BA28212365002B9082 /* Color.swift in Sources */,
 				1398C0D0282908C700E448BB /* PortfolioContainer.xcdatamodeld in Sources */,
 				134762D028227595002B9082 /* HomeViewModel.swift in Sources */,
+				13D028F228326A9F00815E22 /* DetailView.swift in Sources */,
 				134762C428212866002B9082 /* CircleButtonView.swift in Sources */,
 				134762C628212C0D002B9082 /* CircleButtonAnimationView.swift in Sources */,
 				134762B828212365002B9082 /* Double.swift in Sources */,
